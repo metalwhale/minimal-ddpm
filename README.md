@@ -16,5 +16,7 @@ host$ docker compose exec minimal_ddpm bash
 Run the program:
 ```console
 minimal_ddpm# uv sync
-minimal_ddpm# uv run python main.py
+minimal_ddpm# source ./.venv/bin/activate
+minimal_ddpm# cd ../storage/
+minimal_ddpm# uv run python ../minimal_ddpm/main.py
 ```

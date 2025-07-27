@@ -22,7 +22,7 @@ So, what are you waiting for? Let's go!
 
 ## 2. Review of DDPM
 This section is mostly based on [Nakkiran et al. (2024), "Section 2. Stochastic Sampling: DDPM"](#5-1-step-by-step-diffusion-an-elementary-tutorial), which differs slightly in technical details from [Ho et al. (2020)](#5-3-denoising-diffusion-probabilistic-models) - the original DDPM paper. While readers are encouraged to explore these papers themselves, this section is written in a beginner-friendly style so that anyone can understand it:
-- We do not cover the mathematics in full detail, but instead start from the overall picture and gradually clarify only the most important parts in simple language.
+- We do not cover the mathematics in full detail, but instead start from the overall picture and gradually clarify only the most important parts in simple language. However, I will continue adding more detailed mathematical notes to [`./assets/notes/`](./assets/notes/) as I gradually gain more insight into DDPM. Everyone is very welcome to join me!
 - Some lemmas will be presented and treated as given facts, allowing us to use them without delving into detailed proofs.
 
 ### 2-1. DDPM in a Nutshell

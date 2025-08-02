@@ -8,7 +8,7 @@ STORAGE_PATH = pathlib.Path(__file__).parent.parent / "storage"
 
 
 def main():
-    target_distribution = MixtureGaussian([(-2.0, 1.0, 0.4), (2.0, 0.5, 0.6)])
+    target_distribution = MixtureGaussian([(2.0, 1.0, 0.4), (6.0, 0.5, 0.6)])
     model = MinimalDdpm()
     train(STORAGE_PATH, target_distribution, model)
 
